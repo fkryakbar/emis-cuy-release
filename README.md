@@ -19,3 +19,7 @@ fix(updater): show download progress and restart reliably
 ### v3.0.0
 
 new: convert Web interface to native webview
+
+### v3.0.1
+
+fix favicon assets issue
