@@ -38,3 +38,14 @@ feat: modernisasi aplikasi EMIS dan perluas fitur scraping
   - Pertahankan data mentah API untuk ekspor Excel dinamis
   - Dukung ekspor seluruh field data Madrasah dan Pontren
   - Perkuat retry, timeout, serta pengujian scraper dan API
+
+### v3.2.0
+
+feat: add manual retry and failed-data JSON recap
+
+  - add per-item retry for failed Madrasah and Pontren requests
+  - support JSON recap export, validated import, and retry preview
+  - export recovered retry data to separate Excel files
+  - prevent retry Excel filename collisions
+  - show accurate remaining failed-item counts
+  - limit imported JSON recap size for safer file handling
